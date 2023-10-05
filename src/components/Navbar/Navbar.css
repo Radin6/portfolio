@@ -1,13 +1,15 @@
 nav {
   position: fixed;
   top: 10px;
-  margin: 0 auto; /* Only centers horizontally not vertically! */
-  left: 0;
-  right: 0;
+  left: 0; /* Left edge at left for now */
+  right: 0; /* Right edge at right for now, so full width */
+  margin: auto; /* Center it */
+  max-width: 100%; /* Make it fit window if under 320px */
+  z-index: 10000;
   border-radius: 40px;
   background-color: rgba(128, 128, 128, 0.5);
   backdrop-filter: blur(5px);
-  width: 330px;
+  width: 320px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -17,7 +19,7 @@ nav {
 .nav-list {
   font-size: 20px;
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   flex-direction: row;
