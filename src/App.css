@@ -1,0 +1,64 @@
+#root {
+  display: flex;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 2000px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title > * {
+  margin: 0;
+  padding: 0;
+}
+
+.title-myName {
+  font-size: 60px;
+}
+
+.title-dev {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#eee, #870000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.badges {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.badges img {
+  height: 30px;
+}
+
+span {
+  display: block;
+  color: white;
+}
+
+picture {
+  width: max-content;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
