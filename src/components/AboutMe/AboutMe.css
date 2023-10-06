@@ -1,0 +1,27 @@
+.badges {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.badges img {
+  height: 30px;
+}
+
+.about-me {
+  min-height: 100vh;
+}
+
+.badges-lang > img,
+.badges-tec > img {
+  height: 30px;
+}
+
+.badges-lang,
+.badges-tec {
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
