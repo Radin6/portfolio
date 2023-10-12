@@ -1,18 +1,11 @@
 import './Projects.css';
-import Project from './Project';
 
-export default function Projects() {
+export default function Projects({ children }) {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <hr />
       <h2>Projects</h2>
-      <div>
-        <Project
-          text={'Hola que tal'}
-          url={'./profile-pic.png'}
-          alt={'profile pic'}
-        />
-      </div>
+      <div>{children}</div>
     </section>
   );
 }
