@@ -32,3 +32,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.project {
+  max-width: 500px;
+}
