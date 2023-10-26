@@ -9,7 +9,7 @@ export default function Header() {
           <h2 className="title-dev">Full-Stack Developer</h2>
         </div>
         <picture className="pic">
-          <img className="profile-pic" src="/profile-pic.png"></img>
+          <img className="profile-pic" src="./profile-pic.png"></img>
         </picture>
       </div>
     </header>
